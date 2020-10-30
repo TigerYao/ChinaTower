@@ -1,0 +1,104 @@
+.center {
+  font-family:PingFangSC-Regular,PingFang SC;
+  overflow: auto;
+  .list_content {
+    width: 100%;
+    height: 100vh;
+    background-color: unset;
+  }
+  .info_card {
+    padding: 34px 30px;
+    border-radius: 0;
+    margin-top: 20px;
+    .leftDiv {
+      width: 75%;
+      min-height: 1.45rem;
+      position: relative;
+      float: left;
+    }
+    .rightDiv {
+      width: 25%;
+      min-height: 1.45rem;
+      position: relative;
+      float: left;
+    }
+    .borrowTime {
+      &::before {
+        content: '借';
+        display: inline-block;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 0.2rem;
+        background: rgba(0, 191, 143, 0.08);
+        font-size: 0.2rem;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #00bf8f;
+        text-align: center;
+        line-height: 0.4rem;
+        margin-right: 0.1rem;
+      }
+    }
+    .returnTime {
+      &::before {
+        content: '还';
+        display: inline-block;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 0.2rem;
+        background: #edf0f5;
+        font-size: 0.2rem;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #373d52;
+        text-align: center;
+        line-height: 0.4rem;
+        margin-right: 0.1rem;
+      }
+    }
+  }
+  
+  .idText {
+    font-size:28px;
+    font-weight:400;
+    color:rgba(6,4,30,1);
+    line-height:40px;
+    word-break:break-all;
+  }
+  .statusText {
+    text-align: right;
+    height:34px;
+    font-size:24px;
+    font-weight:400;
+    line-height:34px;
+  }
+  .textSen {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #69696D;
+    height:34px;
+    line-height: 34px;
+    width: 100%;
+  }
+  .backBtn {
+    background-color: #00BF8F;
+    color: #FFFFFF;
+    font-size: 32px;
+    height: 68px;
+    line-height: 68px;
+    border-radius: 34px;
+    width: 90%;
+    border: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  .buttomFlex {
+    width: 100%;
+    .buttomDiv {
+      height: 100px;
+      width: 100%;
+      background-color:unset;
+    }
+  }
+}

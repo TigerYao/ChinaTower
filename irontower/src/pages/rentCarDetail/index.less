@@ -1,0 +1,62 @@
+.center {
+  overflow-y: auto;
+  font-family:PingFangSC-Regular,PingFang SC;
+  .infoItem{
+    width: 100%;
+    min-height: 140px;
+    @listText:{
+      height:32px;
+      line-height: 32px;
+      font-size: 32px;
+      color: #06041E; 
+      font-weight:400;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      font-family: PingFangSC-Regular,PingFang SC;
+    }
+    .textLeft {
+      position: relative;
+      float: left;
+      width: 40%;
+      @listText();
+    }
+    .textRight {
+      position: relative;
+      float: left;
+      width: 60%;
+      text-align: right;
+      @listText();
+    }
+    .textLeftEm {
+      position: relative;
+      float: left;
+      width: 40%;
+      @listText();
+      font-size: 36px;
+      height:36px;
+      line-height: 36px;
+      font-weight:600;
+    }
+    .textRightEm {
+      position: relative;
+      float: left;
+      width: 60%;
+      text-align: right;
+      @listText();
+      font-size: 36px;
+      height:36px;
+      line-height: 36px;
+      font-weight:600;
+    }
+  }
+  .buttomFlex {
+    width: 100%;
+    .buttomDiv {
+      height: 100px;
+      width: 100%;
+      background-color: #ffffff;
+    }
+  } 
+}
+
