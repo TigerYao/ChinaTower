@@ -1,0 +1,39 @@
+import { mix } from '../../util/common';
+import GuideBase from './base';
+
+class Rect extends GuideBase {
+  _initDefaultCfg() {
+    this.type = 'rect';
+    this.start = [];
+    this.end = [];
+    this.style = {
+      fill: '#CCD7EB',
+      opacity: 0.4
+    };
+  }
+
+  render(coord, container) {
+    var start = this.parsePoint(coord, this.start);
+    var end = this.parsePoint(coord, this.end);
+
+    if (!start || !end) {
+      return;
+    }
+
+    var shape = container.addShape('rect', {
+      className: 'guide-rect',
+      attrs: mix({
+        x: Math.min(start.x, end.x),
+        y: Math.min(start.y, end.y),
+        width: Math.abs(end.x - start.x),
+        height: Math.abs(start.y - end.y)
+      }, this.style)
+    });
+    this.element = shape;
+    return shape;
+  }
+
+}
+
+GuideBase.Rect = Rect;
+export default Rect;

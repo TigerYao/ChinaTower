@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/铁塔换电.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.chinatower.towerEle</string>
+		<key>CFBundleShortVersionString</key>
+		<string>4.0.5</string>
+		<key>CFBundleVersion</key>
+		<string>4.0.5</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: chuanlong qin (J3Y3NXU282)</string>
+		<key>Team</key>
+		<string>UF473927C9</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2020-08-27T02:23:15Z</date>
+	<key>Name</key>
+	<string>铁塔换电</string>
+	<key>SchemeName</key>
+	<string>铁塔换电</string>
+</dict>
+</plist>

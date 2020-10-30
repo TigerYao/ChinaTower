@@ -1,0 +1,80 @@
+.center {
+    padding-bottom: 160px;
+    .card {
+        background:rgba(255,255,255,1);
+        margin-top: 20px;
+        padding: 0px 30px;
+        .titleLine {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 36px;
+            font-family: PingFangSC-Semibold,PingFang SC;
+            font-weight: 600;
+            color: rgba(6,4,30,1);
+            line-height: 32px;
+            padding: 44px 0px 20px;
+            .status {
+                background: rgba(0,191,131,0.08);
+                border-radius: 18px;
+                padding: 2px 15px;
+                font-size: 22px;
+                font-family: PingFangSC-Medium,PingFang SC;
+                font-weight: 500;
+                color: rgba(0,191,131,1);
+                line-height: 32px;
+                margin-left: 20px;
+            }
+        }
+        .line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 32px;
+            font-family: PingFangSC-Regular,PingFang SC;
+            font-weight: 400;
+            color: rgba(6,4,30,1);
+            line-height: 32px;
+            // padding: 40px 0px;
+            border-bottom: 2px solid #F3F3F3;
+            height: 112px;
+        }
+        .line:last-of-type {
+            border-bottom-width: 0px;
+        }
+        .detail {
+            // border-top: 2px solid #F3F3F3;
+            border-bottom: 2px solid #F3F3F3;
+
+            font-size: 32px;
+            font-family: PingFangSC-Regular,PingFang SC;
+            font-weight: 400;
+            color: rgba(6,4,30,1);
+            line-height: 32px;
+            .detailTip {
+                padding: 40px 0px;
+            }
+            .detailContent {
+                height: 192px;
+                box-sizing: border-box;
+
+            }
+            :global {
+                .am-list-item {
+                    padding-left: 0px;
+                    .am-textarea-control {
+                        padding-top: 0px;
+                        padding-bottom: 40px;
+                    }
+                    textarea {
+                        font-size:32px;
+                        font-family:PingFangSC-Regular,PingFang SC;
+                        font-weight:400;
+                        color:rgba(6,4,30,1);
+                        line-height:32px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+framework module QCLFoundation {
+  umbrella header "QCLFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,48 @@
+.AvatarIcon {
+  position: relative;
+  overflow: visible;
+  width: 80px;
+  height: 80px;
+
+  .icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .avatarCircle {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    // transform: translate(-50%, -50%);
+    // background-image: url(../../assets/images/avatar-circle.png);
+    // background-size: 100% 100%;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // animation: rotate 5s linear infinite;
+  }
+}
+
+&.largIcon {
+  width: 160px;
+  height: 160px;
+  .icon {
+    width: 123px;
+    height: 123px;
+    border-radius: 61.5px;
+  }
+}

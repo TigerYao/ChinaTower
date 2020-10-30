@@ -1,0 +1,6 @@
+framework module Pods_CLUIKit {
+  umbrella header "Pods-CLUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

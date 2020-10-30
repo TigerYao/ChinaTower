@@ -1,0 +1,129 @@
+.eleList {
+  border-bottom: 2px solid #edf0f5;
+  background-color: #fff;
+  padding: 30px;
+  .eleHd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .eleTitle {
+      height: 44px;
+      font-size: 30px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(6, 4, 30, 1);
+      line-height: 44px;
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      // word-break: break-all;
+      letter-spacing: -0.6px;
+      // margin-right: 12px;
+    }
+    .eleStatus {
+      height: 34px;
+      font-size: 24px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: rgba(0, 191, 143, 1);
+      line-height: 34px;
+    }
+  }
+
+  .eleBd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .eleInfo {
+      flex: 1;
+      width: 0;
+      & > div {
+        margin-top: 16px;
+        height: 34px;
+        font-size: 24px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(105, 105, 109, 1);
+        line-height: 34px;
+      }
+      .eleLine {
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+      }
+    }
+    .eleBtn {
+      height: 68px;
+      background: rgba(0, 191, 143, 1);
+      box-shadow: 0px 8px 16px 0px rgba(0, 191, 143, 0.26);
+      border-radius: 34px;
+      font-size: 32px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+      line-height: 68px;
+      padding: 0 48px;
+    }
+  }
+  .footer {
+    padding-top: 16px;
+    // border-top: 1px solid #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(105, 105, 109, 1);
+    .startTime {
+      flex: 1;
+      width: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      word-break: break-all;
+      &::before {
+        content: '借';
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: rgba(0, 191, 143, 0.08);
+        font-size: 20px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: rgba(0, 191, 143, 1);
+        text-align: center;
+        line-height: 40px;
+        margin-right: 10px;
+      }
+    }
+
+    .endTime {
+      flex: 1;
+      width: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      word-break: break-all;
+      &::before {
+        content: '还';
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: #edf0f5;
+        font-size: 20px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #373d52;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

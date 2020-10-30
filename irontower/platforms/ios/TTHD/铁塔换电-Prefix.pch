@@ -1,0 +1,107 @@
+/*
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ */
+//
+// Prefix header for all source files of the '铁塔换电' target in the '铁塔换电' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+
+#define IOS7_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 7.0
+#define IOS8_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 8.0
+#define IOS9_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 9.0
+#define IOS10_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 10.0
+#define IOS11_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 11.0
+#define IOS12_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 12.0
+#define IOS13_VERSION [[UIDevice currentDevice] systemVersion].floatValue >= 13.0
+
+// 获取app版本号
+#define APP_VERSION  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+
+//状态栏高度
+#define STATUSBAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+
+//导航栏高度
+#define NAVBAR_HEIGHT (STATUSBAR_HEIGHT + 44)
+
+//获取设备的物理高度
+#define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//获取设备的物理宽度
+#define KSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+//当前应用程序的bounds
+#define KSCREEN_BOUNDS [[UIScreen mainScreen] bounds]
+
+#warning 这里要记得填写id
+//#define APPID @"432274380"
+#define APPID @"1514351725"
+
+
+
+// 弱转化
+#define WEAK_SELF(weakSelf) __weak __typeof(&*self)weakSelf = self;
+
+/****************************** 日志打印 ***************************************/
+#ifdef DEBUG
+#define NSLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+//#define NSLog(format, ...)
+#endif
+
+/**************************** 字体颜色 ************************************/
+#define UICOLOR(A)  [UIColor qumui_colorWithHexString:A]
+
+//label字体
+#define kFONT_10 [UIFont systemFontOfSize: 10]
+#define kFONT_12 [UIFont systemFontOfSize: 12]
+#define kFONT_15 [UIFont systemFontOfSize: 15]
+#define kFONT_17 [UIFont systemFontOfSize: 17]
+#define kFONT_20 [UIFont systemFontOfSize: 20]
+#define FONT(x)  [UIFont systemFontOfSize:x]
+
+
+//颜色
+#define rgbhex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000)>>16)/255.0) green:((float)((rgbValue & 0xFF00)>>8))/255.0 blue:((float)((rgbValue & 0xFF)))/255.0 alpha:1.0f]
+#define rgba(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define rgb(r,g,b)     rgba(r,g,b,1.0f)
+
+// 常用颜色定义
+#define color_333 rgbhex(0x333333)
+#define color_666 rgbhex(0x666666)
+#define color_999 rgbhex(0x999999)
+#define color_bg rgbhex(0xEDF0F5)
+#define color_ccc rgbhex(0xCCCCCC)
+
+
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+
+
+// 极光推送  com.chinatower.towerEle
+#define JPushKey @"f1b58f25ea85f34ed4ceb587"
+#define JPushSecret @"52470257a29020ab71ad00e0"
+#define WXKey @"wxdc946658fe1c020a" // 微信key
+
+
+// 激光推送  com.chinatower.fghd.customer
+//#define JPushKey @"d8cb6c6b238cf6a494f44f38"
+//#define JPushSecret @"2a3bc4c69dcfb9981dc5f638"
+//#define WXKey @"wxe6b4508da29eeb85" // 微信key
+
+#endif

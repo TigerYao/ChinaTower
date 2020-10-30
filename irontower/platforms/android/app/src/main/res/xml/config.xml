@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-packageName="com.chinatower.fghd.customer" id="com.chinatower.fghd.customer" ios-CFBundleIdentifier="com.chinatower.towerEle" version="4.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="H5Bridge">
+        <param name="android-package" value="org.apache.cordova.h5Bridge.H5bridge" />
+    </feature>
+    <name>铁塔换电</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://192.168.0.102:8000" />
+    <allow-navigation href="http://172.21.106.216:8000" />
+    <allow-navigation href="https://api.map.baidu.com" />
+    <allow-intent href="market:*" />
+    <splash density="mdpi" src="res/screen/android/splash_back_m.png" />
+    <splash density="hdpi" src="res/screen/android/splash_back_h.png" />
+    <splash density="xhdpi" src="res/screen/android/splash_back_xh.png" />
+    <splash density="xxhdpi" src="res/screen/android/splash_back_xxh.png" />
+    <splash src="res/screen/android/splash_back.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="StatusBarBackgroundColor" value="#fff" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarDefaultScrollToTop" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="FadeSplashScreenDuration" value="750" />
+    <preference name="loadUrlTimeoutValue" value="100000" />
+</widget>

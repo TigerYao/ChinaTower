@@ -1,0 +1,66 @@
+// 不一定是加在body上
+
+// #root > div {
+//   /* Status bar height on iOS 11.0 */
+//   padding-top: constant(safe-area-inset-top);
+//   padding-bottom: constant(safe-area-inset-bottom);
+//   /* Status bar height on iOS 11+ */
+//   padding-top: calc(env(safe-area-inset-top) * 2);
+//   padding-bottom: calc(env(safe-area-inset-bottom) * 2);
+// }
+
+// #root > div > div:first-child {
+//   top: calc(env(safe-area-inset-top) * 2) !important;
+// }
+
+@import './video-react';
+
+body {
+  overflow: hidden;
+}
+
+.am-navbar-light {
+  color: #000 !important;
+  // background-color: #fff !important;
+}
+
+#root {
+  overflow: hidden;
+}
+
+#root>div>div {
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #cbcacf !important;
+  font-size: 32px !important;
+}
+
+/*
+ * 时间选择器风格
+ */
+// .am-picker-popup-item {
+//   color: #00bf8f !important;
+// }
+
+iframe {
+  width: 0px !important;
+}
+
+.rumtime-keep-alive-layout-no {
+  height: 100% !important;
+  // height: calc('100%'-'90px') !important;
+  overflow: auto;
+}
+
+.am-button {
+  border-width: 0px;
+}
+
+img[src=''],
+img:not([src]) {
+  opacity: 0;
+}

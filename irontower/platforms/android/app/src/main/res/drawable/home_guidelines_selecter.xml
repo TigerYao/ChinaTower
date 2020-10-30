@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 默认时的背景图片  -->
+    <item android:drawable="@mipmap/home_guidelines_unselect" android:state_checked="false" />
+    <!-- 选中时的图片背景    -->
+    <item android:drawable="@mipmap/home_guidelines_select" android:state_checked="true" />
+</selector>

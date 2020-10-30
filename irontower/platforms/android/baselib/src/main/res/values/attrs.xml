@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 广告类型 -->
+    <declare-styleable name="adsView">
+        <attr name="adsType" format="integer" />
+        <attr name="adsHeight" format="string" />
+
+    </declare-styleable>
+    <!--loadView-->
+    <declare-styleable name="Dialog">
+        <attr name="DialogTitleAppearance" format="reference" />
+        <attr name="DialogTitleText" format="reference|string" />
+        <attr name="DialogSpotColor" format="reference|color" />
+        <attr name="DialogSpotCount" format="integer" />
+    </declare-styleable>
+
+
+    <!-- 标题栏属性 -->
+    <declare-styleable name="LayoutTitle">
+        <attr name="titleName" format="string" localization="suggested" />
+        <attr name="btnBackVisibility" format="string" />
+        <attr name="btnRightVisibility" format="string" />
+        <attr name="btnRightText" format="string" />
+        <attr name="leftImageSrc" format="reference" />
+        <attr name="rightImageSrc" format="reference" />
+        <attr name="btnLeftText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DropDownMenu">
+
+        <attr name="ddunderlineColor" format="color" />
+        <attr name="dddividerColor" format="color" />
+        <attr name="ddtextSelectedColor" format="color" />
+        <attr name="ddtextUnselectedColor" format="color" />
+        <attr name="ddmenuBackgroundColor" format="color" />
+        <attr name="ddmaskColor" format="color" />
+        <attr name="ddmenuTextSize" format="dimension" />
+        <attr name="ddmenuSelectedIcon" format="reference" />
+        <attr name="ddmenuUnselectedIcon" format="reference" />
+    </declare-styleable>
+
+    <!--提示框-->
+    <style name="setting_dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <!--更多-->
+    <declare-styleable name="personCenterItem">
+        <attr name="bussinessName" format="string" />
+        <attr name="bussinessPicSrc" format="string" />
+        <attr name="bussinessDesc" format="string" />
+        <attr name="showTopLine" format="boolean" />
+        <attr name="showMiddleLine" format="boolean" />
+        <attr name="showBottomLine" format="boolean" />
+        <attr name="showRightArrows" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MaxLimitRecyclerView">
+        <attr name="limit_maxHeight" format="reference|dimension" />
+        <attr name="limit_maxWidth" format="reference|dimension" />
+    </declare-styleable>
+
+
+</resources>

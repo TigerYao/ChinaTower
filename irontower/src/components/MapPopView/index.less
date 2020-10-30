@@ -1,0 +1,189 @@
+.popViewContent {
+  position: fixed;
+  left: 40px;
+  right: 40px;
+  bottom: 50px;
+  z-index: 999;
+  max-height: 45vh;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(200%);
+  transition: transform 0.3s ease-out;
+  overflow: hidden;
+  will-change: transform;
+  &.showCon {
+    transform: translateY(0%);
+  }
+  .ftView {
+    flex-shrink: 0;
+    height: 128px;
+    padding-left: 148px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    .telBtn {
+      width: 160px;
+      height: 68px;
+      background: rgba(0, 191, 131, 1);
+      box-shadow: 0px 8px 16px 0px rgba(0, 191, 131, 0.3);
+      border-radius: 34px;
+      // border: 1px solid rgba(0, 191, 131, 1);
+      text-align: center;
+      line-height: 68px;
+      font-size: 32px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .navigationBtn {
+      width: 160px;
+      height: 68px;
+      // background: rgba(251, 96, 45, 1);
+      // box-shadow: 0px 8px 16px 0px rgba(251, 96, 45, 0.26);
+      border-radius: 34px;
+      // border: 1px solid rgba(251, 96, 45, 1);
+      font-size: 32px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+      line-height: 68px;
+
+      background: rgba(53, 99, 245, 1);
+      box-shadow: 0px 8px 16px 0px rgba(53, 99, 245, 0.2);
+      border: 1px solid rgba(53, 99, 245, 1);
+    }
+  }
+
+  .listView {
+    flex: 1;
+    // height: 0;
+    overflow: scroll;
+
+    .listViewCell {
+      margin: 0 34px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f3f3f3;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      .eleCount {
+        flex-shrink: 0;
+        width: 80px;
+        .count {
+          font-size: 72px;
+          font-family: PingFangSC-Semibold, PingFang SC;
+          font-weight: 600;
+          color: rgba(6, 4, 30, 1);
+          line-height: 100px;
+          text-align: center;
+        }
+        .eleText {
+          font-size: 20px;
+          font-family: PingFangSC-Medium, PingFang SC;
+          font-weight: 500;
+          color: rgba(105, 105, 109, 1);
+          line-height: 34px;
+          text-align: center;
+        }
+      }
+      .rightArrow {
+        flex-shrink: 0;
+        width: 32px;
+        height: 32px;
+        background: url(../../assets/images/arrow-right.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .telBtn {
+        width: 95px;
+        height: 95px;
+        background: rgba(0, 191, 131, 1);
+        box-shadow: 0px 8px 16px 0px rgba(0, 191, 131, 0.3);
+        border-radius: 47px;
+        border: 1px solid rgba(0, 191, 131, 1);
+        text-align: center;
+        line-height: 95px;
+        font-size: 35px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      .address {
+        width: 0;
+        margin-left: 32px;
+        margin-right: 24px;
+        flex: 1;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        .mainTitle {
+          height: 44px;
+          font-size: 32px;
+          font-family: PingFangSC-Medium, PingFang SC;
+          font-weight: 500;
+          color: rgba(6, 4, 30, 1);
+          line-height: 44px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          word-break: break-all;
+        }
+        .subAddress {
+          margin-top: 20px;
+          font-size: 24px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(105, 105, 109, 1);
+          line-height: 34px;
+          &::before {
+            content: '';
+            display: inline-block;
+            background: url(../../assets/images/home-icon-marker.png);
+            width: 24px;
+            height: 30px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            vertical-align: middle;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .eleSection {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        padding: 13px 0 8px;
+        border-top: 1px solid #f3f3f3;
+        font-size: 24px;
+        .sectionTitle {
+          color: #000;
+          font-size: 28px;
+          line-height: 30px;
+          margin-right: 20px;
+        }
+        .sectionBody {
+          flex: 1;
+          line-height: 30px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          vertical-align: middle;
+          div {
+            vertical-align: middle;
+            span {
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "griffith-utils",
+  "version": "1.4.4",
+  "description": "griffith utils",
+  "homepage": "https://github.com/zhihu/griffith/tree/master/packages/griffith-utils",
+  "license": "MIT",
+  "files": [
+    "cjs",
+    "esm"
+  ],
+  "source": "src/index.js",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "prebuild": "rm -rf esm cjs",
+    "build": "rollup -c ../../rollup.config.js"
+  }
+}

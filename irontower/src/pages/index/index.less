@@ -1,0 +1,209 @@
+.container {
+  position: relative;
+  height: 100vh;
+  .drawer {
+    height: 100%;
+    .drawerContent {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      .mapContainer {
+        position: relative;
+        flex: 1;
+      }
+
+      .toolbar {
+        position: fixed;
+        right: 0;
+        bottom: 184px;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // bottom: calc(env(safe-area-inset-bottom) * 2 + 184px);
+        // bottom: calc(constant(safe-area-inset-bottom) * 2 + 184px);
+        height: 100px;
+        padding: 0 32px;
+        .toolItemBtn {
+          width: 100px;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .qrCodeBtn {
+          display: flex;
+          flex: 1;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          margin: 0 32px;
+          color: rgba(255, 255, 255, 1);
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 100px;
+          background-color: #00bf8f;
+          border-radius: 50px;
+          img {
+            width: 44px;
+            height: 44px;
+            margin-right: 20px;
+          }
+        }
+      }
+
+      .zhinan {
+        position: fixed;
+        bottom: 240px;
+        left: 32px;
+        width: 120px;
+        height: 120px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(180deg);
+        }
+      }
+
+      .refreshBtn {
+        position: fixed;
+        right: 32px;
+        // bottom: 240px;
+        // constant
+        bottom: 304px;
+        // bottom: calc(constant(safe-area-inset-bottom) * 2 + 304px);
+        // bottom: calc(env(safe-area-inset-bottom) * 2 + 304px);
+        width: 100px;
+        height: 100px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .rotate {
+          animation: rotate 1s linear infinite;
+        }
+      }
+      .currentBtn {
+        position: fixed;
+        right: 45%;
+        bottom: 50%;
+        width: 80px;
+        height: 80px;
+        .img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .qrCodeBtnBg {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        // padding: 34px 30px;
+        padding-top: 34px;
+        padding-right: 30px;
+        // constant
+        padding-bottom: 34px;
+        padding-left: 30px;
+        // padding-bottom: calc(constant(safe-area-inset-bottom) * 2 + 34px);
+        // padding-bottom: calc(env(safe-area-inset-bottom) * 2 + 34px);
+        background-color: #fff;
+        box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.1);
+        .qrCodeBtn {
+          width: 100%;
+          height: 86px;
+          color: #fff;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 86px;
+          text-align: center;
+          background-color: #00bf8f;
+          border-radius: 43px;
+
+          img {
+            width: 44px;
+            height: 44px;
+            margin-right: 24px;
+          }
+        }
+      }
+      .leftOperationWrap {
+        position: absolute;
+        bottom: 324px;
+        left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -24px;
+      }
+      .leftChangeOperation {
+        position: absolute;
+        // bottom: 324px;
+        bottom: 249px;
+        left: 22px;
+        // padding: 14px;
+        padding: 20px 14px;
+        background: #fff;
+        // border-radius: 40px;
+        border-radius: 60px;
+        // box-shadow: 0 4px 10px 0 rgba(6, 4, 30, 0.08);
+        box-shadow: 0 6px 15px 0 rgba(6, 4, 30, 0.08);
+        transform: scale(2/3);
+        .opItem {
+          text-align: center;
+          .typeIcon {
+            // width: 52px;
+            width: 78px;
+          }
+          .title {
+            // padding-top: 4px;
+            padding-top: 6px;
+            color: #333;
+            // font-size: 16px;
+            font-size: 24px;
+          }
+          &:not(:last-child) {
+            // padding-bottom: 16px;
+            padding-bottom: 24px;
+          }
+        }
+        // .selected {
+        //   width: 52px;
+        //   height: 52px;
+        //   border-radius: 52px;
+        // }
+      }
+    }
+
+    .titleView {
+      width: 200px;
+      height: 52px;
+    }
+    .navItem {
+      width: 64px;
+      height: 64px;
+    }
+    .msgIcon {
+      padding-top: 20px;
+    }
+  }
+
+  :global {
+    .am-drawer-draghandle {
+      width: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTitleBg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/activityTitleHeight"
+    android:background="@color/title_color">
+
+    <TextView
+        android:id="@+id/tv_TitleName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/activityTitleName"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/iTvTitleLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/title_back_bg" />
+
+    <ImageView
+        android:id="@+id/ivTitleRight"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:src="@drawable/title_more_bg"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/iTvTitleRight"
+        android:layout_width="@dimen/btnTitleWidth"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:textColor="@color/activityTitleName"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_gray_f0f0f0"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+.setupPage {
+  // position: relative;
+  height: calc(100% - 90px);
+  background-color: rgba(237, 240, 245, 1);
+  padding-top: 20px;
+  .exit {
+    // margin-top: 200px;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    color: rgba(6, 4, 30, 1);
+    font-size: 32px;
+    line-height: 112px;
+    text-align: center;
+
+    font-weight: 600;
+    .exitZx {
+      height: 112px;
+      margin-bottom: 1px;
+      background-color: rgba(255, 255, 255, 1);
+      // border-radius: 20px;
+    }
+    .exitTc {
+      background-color: rgba(255, 255, 255, 1);
+      // border-radius: 20px;
+    }
+  }
+
+  .formsData {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 112px;
+    line-height: 112px;
+    background-color: #fff;
+    padding: 0 30px;
+    font-size: 32px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(6, 4, 30, 1);
+    &::after {
+      content: '';
+      position: absolute;
+      left: 30px;
+      right: 30px;
+      height: 1px;
+      background-color: #f3f3f3;
+    }
+    // &:last-child::after {
+    //   height: 0;
+    // }
+
+    .placeholder {
+      font-size: 28px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(105, 105, 109, 1);
+    }
+  }
+  :global {
+    .am-list-body {
+      border-top: 1px solid transparent;
+    }
+    .am-list-body div:not(:last-child) .am-list-line {
+      border-bottom: 2px solid rgba(243, 243, 243, 1);
+    }
+    .setupPage___3LYYE .am-list-item.am-input-item {
+      height: 1.1rem;
+    }
+    .am-list-item .am-list-line {
+      padding-right: 0;
+    }
+    .am-list-item.am-input-item {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
+    }
+    .am-list-item.am-input-item {
+      height: 1.12rem;
+    }
+    .alitajs-dform-title {
+      color: rgba(6, 4, 30, 1);
+      font-size: 0.32rem !important;
+      font-weight: 400;
+      font-family: PingFangSC-Regular, PingFang SC;
+      line-height: 32px;
+    }
+    .am-whitespace.am-whitespace-lg {
+      height: 0.08rem;
+    }
+  }
+}

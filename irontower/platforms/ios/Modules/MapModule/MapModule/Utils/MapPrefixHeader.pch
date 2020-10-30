@@ -1,0 +1,28 @@
+//
+//  MapPrefixHeader.pch
+//  MapModule
+//
+//  Created by 秦传龙 on 2020/8/18.
+//  Copyright © 2020 秦传龙. All rights reserved.
+//
+
+#ifndef MapPrefixHeader_pch
+#define MapPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <QMUIKit/QMUIKit.h>
+#import "MapModuleResoures.h"
+#import <QCLFoundation/QCLFoundation.h>
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BMKLocationkit/BMKLocationComponent.h>
+#import "NSUserDefaults+cLUserDefaults.h"
+
+static NSString *const BAIDU_AK = @"geMzYe8puzITT4qEQfpScYYAW0rScxvj";
+static NSString *const TEL_NUMBER = @"10096";
+
+#define REMPX(x) (375 / [UIScreen mainScreen].bounds.size.width * x)
+
+#endif /* MapPrefixHeader_pch */

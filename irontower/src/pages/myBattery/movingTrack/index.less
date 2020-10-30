@@ -1,0 +1,41 @@
+.movingTrack {
+  height: calc(100% - 45px);
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .topWrap {
+      padding: 16px 30px;
+      .timePicker {
+        display: flex;
+        align-items: center;
+        color: #333;
+        font-size: 28px;
+        white-space: nowrap;
+        .timeItem {
+          flex: 1;
+          padding: 8px 10px;
+          background-color: #f8fbff;
+          border-radius: 4px;
+          .iconPicker {
+            height: 18px;
+            margin-left: 10px;
+          }
+          span {
+            line-height: 40px;
+            letter-spacing: -0.3px;
+          }
+        }
+        .interval {
+          padding: 0 12px;
+        }
+      }
+    }
+    .content {
+      flex: 1;
+      .trackMap {
+        height: 100%;
+      }
+    }
+  }
+}

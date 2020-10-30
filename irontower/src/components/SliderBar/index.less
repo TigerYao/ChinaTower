@@ -1,0 +1,151 @@
+.sliderWrapper {
+  height: 100vh;
+  background-color: #fff;
+  overflow: auto;
+  .sliderBar {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .headerView {
+      margin-top: 84px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 40px;
+      .headerViewFt {
+        width: 32px;
+        height: 32px;
+        background: url(../../assets/images/arrow-right.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .headerBd {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        .name {
+          font-size: 36px;
+          font-family: PingFangSC-Semibold, PingFang SC;
+          font-weight: 600;
+          color: rgba(55, 61, 82, 1);
+          line-height: 50px;
+          padding-right: 20px;
+          vertical-align: middle;
+        }
+        .authStatus {
+          padding: 0 16px;
+          height: 36px;
+          line-height: 36px;
+          background: rgba(251, 96, 45, 0.1);
+          border-radius: 18px;
+          color: #ff5e00;
+          font-size: 22px;
+          font-family: PingFangSC-Medium, PingFang SC;
+          font-weight: 500;
+          color: rgba(255, 94, 0, 1);
+          vertical-align: middle;
+          &.did {
+            color: #00bf8f;
+            background: rgba(0, 191, 143, 0.08);
+          }
+        }
+
+        .phoneNum {
+          font-size: 28px;
+          font-family: PingFangSC-Semibold, PingFang SC;
+          font-weight: 400;
+          color: rgba(55, 61, 82, 1);
+          line-height: 50px;
+          margin-top: 7px;
+        }
+        .batteryId {
+          font-size: 24px;
+          font-family: PingFangSC-Semibold, PingFang SC;
+          font-weight: 500;
+          color: rgba(55, 61, 82, 1);
+          letter-spacing: -0.6px;
+        }
+      }
+    }
+    .menuView {
+      flex: 1;
+      .menuViewWrapper {
+        overflow: auto;
+        .menuViewCell {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          .cellHd {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 20px 0;
+            .cellIcon {
+              width: 60px;
+              height: 60px;
+              margin-right: 20px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .cellTitle {
+              font-size: 32px;
+              font-family: PingFangSC-Regular, PingFang SC;
+              font-weight: 400;
+              color: rgba(6, 4, 30, 1);
+              line-height: 32px;
+            }
+          }
+          .cellFt {
+            width: 40px;
+            height: 40px;
+            background: url(../../assets/images/arrow-right.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+      }
+    }
+
+    .footView {
+      position: absolute;
+      bottom: 0;
+      width: 90%;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 26px;
+      .versionDiv {
+        // display: flex;
+        // flex-direction: row;
+        // align-items: center;
+        // justify-content: flex-start;
+        flex: 2;
+        .notice {
+          background: rgba(250, 60, 0, 1);
+          position: absolute; /*根据父元素绝对定位*/
+          width: 10px;
+          height: 10px;
+          top: 0; /*在父元素的内部的顶部*/
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+        }
+      }
+
+      .loginOutDiv {
+        flex: 1;
+        margin-left: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.center {
+  width: 100%;
+  font-size: 28px;
+  .headerContain {
+    height: 280px;
+    color: #fff;
+    line-height: 280px;
+    text-align: center;
+    background: url('../../../assets/images/point-bg.png') no-repeat 100% 100%;
+    background-size: 100%;
+    span {
+      font-size: 100px;
+    }
+    .pointsExchange {
+      position: absolute;
+      top: 200px;
+      right: 0;
+      height: 60px;
+      padding: 0 20px;
+      color: #00BF8FFF;
+      line-height: 60px;
+      background-color: #fff;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+  }
+  .listContain {
+    width: 100%;
+    margin-top: -40px;
+    padding-top: 50px;
+    background-color: #fff;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    .operation {
+      width: 420px;
+      height: 62px;
+      margin: auto;
+      line-height: 62px;
+      border: 1px solid #00BF8FFF;
+      border-radius: 40px;
+      .title {
+        float: left;
+        width: 33.33%;
+        color: #00BF8FFF;
+        text-align: center;
+        border-right: 1px solid #00BF8FFF;
+        &:first-child {
+          border-left: 0;
+          border-top-left-radius: 40px;
+          border-bottom-left-radius: 40px;
+        }
+        &:last-child {
+          border-right: 0;
+          border-top-right-radius: 40px;
+          border-bottom-right-radius: 40px;
+        }
+      }
+      .selected {
+        color: #fff;
+        background-color: #00BF8FFF;
+      }
+    }
+    .pointsContain {
+      width: 100%;
+      height: calc(100vh - 440px);
+      padding: 30px;
+      overflow-y: auto;
+      .cellContainer {
+        display: flex;
+        height: auto;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #F3F3F3FF;
+        .cellDesc {
+          float: left;
+          width: 90%;
+          text-align: left;
+          .txtDesc {
+            height: 60px;
+            color: #06041EFF;
+            line-height: 60px;
+          }
+          .dataTime {
+            height: 60px;
+            color: #B6B6B6;
+            font-size: 20px;
+            line-height: 60px;
+          }
+        }
+        .cellPoints{
+          float: right;
+          width: 10%;
+          height: 120px;
+          font-size: 32px;
+          line-height: 120px;
+          text-align: center;
+          .fuAmount {
+            color: #FF7040FF;
+          }
+          .amount {
+            color: #999999FF;
+          }
+        }
+      }
+    }
+  }
+}
+
+.pointRules {
+  font-size: 26px;
+  text-align: left;
+}

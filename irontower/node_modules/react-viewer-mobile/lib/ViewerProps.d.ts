@@ -1,0 +1,16 @@
+export interface ImageDecorator {
+    src: string;
+    alt?: string;
+}
+interface ViewerProps {
+    /** viewer是否可见 */
+    visible: boolean;
+    /** 需要进行浏览的图片地址集合 */
+    images: ImageDecorator[];
+    /** 当前图像index */
+    activeIndex?: number;
+    /** 自定义viewer组件的z-index */
+    zIndex?: number;
+    onClose: () => void;
+}
+export default ViewerProps;

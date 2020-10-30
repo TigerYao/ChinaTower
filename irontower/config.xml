@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-packageName="com.chinatower.fghd.customer" id="com.chinatower.fghd.customer" ios-CFBundleIdentifier="com.chinatower.towerEle" version="4.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>铁塔换电</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <feature name="CDVWKWebViewEngine">
+        <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature>
+    <preference name="StatusBarBackgroundColor" value="#fff" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarDefaultScrollToTop" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="FadeSplashScreenDuration" value="750" />
+    <preference name="loadUrlTimeoutValue" value="100000" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <splash density="mdpi" src="res/screen/android/splash_back_m.png" />
+        <splash density="hdpi" src="res/screen/android/splash_back_h.png" />
+        <splash density="xhdpi" src="res/screen/android/splash_back_xh.png" />
+        <splash density="xxhdpi" src="res/screen/android/splash_back_xxh.png" />
+        <splash src="res/screen/android/splash_back.png" />
+    </platform>
+    <platform name="ios">
+        <name>TTHD</name>
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <hook src="/hooks/build-before.js" type="after_build" />
+        <preference name="BackupWebStorage" value="none" />
+    </platform>
+    <allow-navigation href="http://192.168.0.104:8000" />
+    <allow-navigation href="http://172.21.106.216:8000" />
+    <allow-navigation href="https://api.map.baidu.com" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-wkwebview-engine" spec="~1.2.1" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.3" />
+    <plugin name="cordova-plugin-geolocation" spec="~4.0.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.3" />
+    <engine name="android" spec="^8.1.0" />
+    <engine name="ios" spec="^5.1.1" />
+</widget>

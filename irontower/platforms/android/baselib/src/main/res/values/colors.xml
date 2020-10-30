@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 公共头部标题颜色-->
+    <color name="title_color">#FFFFFF</color>
+    <color name="title_bg_color">#FE619C</color>
+
+    <color name="theme_color">#ff0975fe</color>
+    <color name="back_color">#f4f4f4</color>
+    <color name="task_theme_color">#28C89A</color>
+
+
+
+
+    <color name="activityTitleName">#000000</color>
+    <!--字体色-->
+    <color name="font_black">#000000</color>
+    <color name="font_light_black">#3a3a3a</color>
+    <color name="font_gray">#FFAAAAAA</color>
+    <color name="font_gray2">#FFD0CACA</color>
+    <color name="font_white">#FFFFFF</color>
+    <color name="font_blue">#FF0F2EDA</color>
+    <color name="font_theme_color">#0099FF</color>
+    <color name="font_brown">#FF0F2EDA</color>
+
+    <color name="gray_666666">#666666</color>
+    <color name="gray_999999">#999999</color>
+
+    <!-- 线颜色 -->
+    <color name="line_color">#FFDDD9D9</color>
+    <color name="font_orange">#FFDDD9D9</color>
+
+
+    <!-- 按钮色-->
+    <color name="bnt_theme_color">#101b7f</color>
+    <color name="check_bg">#f2f2f2</color>
+
+
+    <!-- 背景颜色 -->
+    <color name="btn_disable">#d6d6d6</color>
+    <!--<color name="bg_gray_f0f0f0">#f4f4f4</color>-->
+    <color name="bg_gray">#f4f4f4</color>
+    <color name="search_commen_bg">#f5f5f5</color>
+
+    <color name="bg_yellow">#fff0c6</color>
+    <color name="lucency_black">#40000000</color>
+    <color name="btn_light_red_bg">#523430</color>
+    <color name="base_lib_white">@android:color/white</color>
+    <color name="white_ce">#ceffffff</color>
+    <color name="bg_talk_phpto">#C3C3C3</color>
+    <color name="blue">#66004af2</color>
+    <color name="light_red">#f24541</color>
+    <color name="light_red_transparent">#66f24541</color>
+
+    <color name="bg_gray_f0f0f0">#E5E5E5</color>
+    <color name="black_a9a9a9">#a9a9a9</color>
+    <color name="tab_blue">#0F1585</color>
+    <color name="text_black_666666">#666666</color>
+    <color name="text_black_333333">#333333</color>
+    <color name="orangle">#FF7200</color>
+
+    <!-- 通用 -->
+    <color name="android_white">#FFFFFF</color>
+    <color name="android_light_blue">#317cd3</color>
+    <color name="android_black">#000000</color>
+    <color name="android_gray">#E6E6E6</color>
+    <color name="android_gray2">#ebf3f8</color>
+
+    <color name="android_dark_gray">#B8BCC5</color>
+    <color name="android_light_gray">#cccccc</color>
+    <color name="android_dark_blue">#062438</color>
+    <color name="android_red">#FF0000</color>
+    <color name="android_green">#00FF00</color>
+    <color name="android_blue">#00BFFF</color>
+    <color name="android_transparent">#00000000</color>
+    <color name="android_transparent1">#22000000</color>
+    <color name="android_transparent_theme">#FEE3ED</color>
+    <drawable name="android_transparent">#00000000</drawable>
+
+    <color name="android_orange">#FF8040</color>
+    <color name="android_yellow">#FFFF00</color>
+    <color name="baseLib_red">#e93236</color>
+    <color name="app_transparent">#21000000</color>
+
+
+    <!--半透明背景-->
+    <color name="transparent_back">#66000000</color>
+    <color name="transparent_white_back">#79ffffff</color>
+    <!-- 背景全透明 -->
+    <color name="back_alltransparent">#00000000</color>
+    <!--仿ios弹出框-->
+    <color name="trans">#00000000</color>
+    <color name="black">@android:color/black</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    //切换tab颜色
+    <color name="tab_theme_color">#037BFF</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="viewfinder_mask">#B2000000</color>
+    <color name="gray_CDCDCD">#CDCDCD</color>
+    <color name="color_light_yellow">#E9D3AC</color>
+
+    <color name="color_273141">#273141</color>
+    <color name="color_4E322F">#4E322F</color>
+    <color name="color_2E2E2E">#2E2E2E</color>
+    <color name="color_492C2A">#492C2A</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+
+    <color name="color_blue_3a9efb">#3a9efb</color>
+
+    <color name="action_text_color_normal">#cfcfcf</color>
+    <color name="action_text_color_pressed">#353535</color>
+    <color name="action_text_color_enabled">#818585</color>
+
+    <color name="photopicker_background">#181819</color>
+
+</resources>

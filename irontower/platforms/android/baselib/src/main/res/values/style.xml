@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--loadView-->
+    <style name="SpotsDialogDefault" parent="android:Theme.DeviceDefault.Light.Dialog" tools:targetApi="ice_cream_sandwich">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="DialogTitleText">正在加载…</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+
+    <style name="TransparentDialog" parent="Theme.AppCompat.Dialog">
+
+    </style>
+
+    <style name="tv_black">
+        <item name="android:textSize">@dimen/font_size_22</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/font_gray2</item>
+    </style>
+</resources>

@@ -1,0 +1,448 @@
+BCSymbolMap Version: 2.0
+-[UserCenterApi initWithSelectUserInfo]
+-[UserCenterApi initWithUpdateUserInfoNews:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+__OBJC_METACLASS_RO_$_UserCenterApi
+__OBJC_$_INSTANCE_METHODS_UserCenterApi
+__OBJC_CLASS_RO_$_UserCenterApi
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/UserCenterApi.m
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi
+TTHDApi/Class/UserCenterApi.m
+-[BasicCenterApi initWithUserLoginOut]
+-[BasicCenterApi initWithGetAppShareLink]
+-[BasicCenterApi queryUpgrade]
+-[BasicCenterApi getPrivacyPolicyAgreement]
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+__OBJC_METACLASS_RO_$_BasicCenterApi
+__OBJC_$_INSTANCE_METHODS_BasicCenterApi
+__OBJC_CLASS_RO_$_BasicCenterApi
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/BasicCenterApi.m
+TTHDApi/Class/BasicCenterApi.m
+-[ExcCenterApi initWithGetPostalBatteryBinding:]
+-[ExcCenterApi initWithQueryBatteryElectricQuantity]
+-[ExcCenterApi initWithQueryFirstTakeFlag]
+-[ExcCenterApi exchangePowerBusiness:]
+-[ExcCenterApi selectRangeStationList:]
+-[ExcCenterApi queryNetworkInfoList:]
+-[ExcCenterApi selectRangeReturnStationList:]
+-[ExcCenterApi queryCabinetAndBatteryInfo:]
+-[ExcCenterApi queryReturnCabinetInfo:]
+-[ExcCenterApi getPostalBatteryUnbound:]
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+__OBJC_METACLASS_RO_$_ExcCenterApi
+__OBJC_$_INSTANCE_METHODS_ExcCenterApi
+__OBJC_CLASS_RO_$_ExcCenterApi
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/ExcCenterApi.m
+TTHDApi/Class/ExcCenterApi.m
+__OBJC_METACLASS_RO_$_OrderCenterApi
+__OBJC_CLASS_RO_$_OrderCenterApi
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/OrderCenterApi.m
++[IpFileParse getIp]
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.34
+__OBJC_$_CLASS_METHODS_IpFileParse
+__OBJC_METACLASS_RO_$_IpFileParse
+__OBJC_CLASS_RO_$_IpFileParse
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Utils/IpFileParse.m
+TTHDApi/Utils/IpFileParse.m
++[ApiConstant selectUserInfo]
++[ApiConstant selectRangeStationList]
++[ApiConstant selectPronvieOrCity]
++[ApiConstant userLoginOut]
++[ApiConstant getAppShareLink]
++[ApiConstant getPostalBatteryBinding]
++[ApiConstant queryBatteryElectricQuantity]
++[ApiConstant queryFirstTakeFlag]
++[ApiConstant updateUserInfo]
++[ApiConstant exchangePowerBusiness]
++[ApiConstant queryNetworkInfoList]
++[ApiConstant selectRangeReturnStationList]
++[ApiConstant queryCabinetAndBatteryInfo]
++[ApiConstant queryReturnCabinetInfo]
++[ApiConstant getPostalBatteryUnbound]
++[ApiConstant queryUpgrade]
++[ApiConstant getAgreement]
+__OBJC_$_CLASS_METHODS_ApiConstant
+__OBJC_$_CLASS_PROP_LIST_ApiConstant
+__OBJC_METACLASS_RO_$_ApiConstant
+__OBJC_CLASS_RO_$_ApiConstant
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/ApiConstant.m
+TTHDApi/Class/ApiConstant.m
+-[HDBaseRequest requestTimeoutInterval]
+-[HDBaseRequest initialzeRequestConfigWithUrl:params:method:hud:]
+-[HDBaseRequest initWithUrl:params:method:hud:]
+-[HDBaseRequest initWithPOSTShowLoadingUrl:params:]
+-[HDBaseRequest initWithGETShowLoadingUrl:params:]
+-[HDBaseRequest initWithPOSTNoLoadingUrl:params:]
+-[HDBaseRequest requestMethod]
+-[HDBaseRequest requestArgument]
+-[HDBaseRequest requestHeaderFieldValueDictionary]
+-[HDBaseRequest requestAuthorizationHeaderFieldArray]
+-[HDBaseRequest requestSerializerType]
+-[HDBaseRequest responseSerializerType]
+-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]
+___68-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]_block_invoke
+___68-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]_block_invoke_2
+___copy_helper_block_e8_32b40b48s
+___destroy_helper_block_e8_32s40s48s
+___68-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]_block_invoke.110
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+-[HDBaseRequest requestUrl]
+-[HDBaseRequest baseUrl]
+-[HDBaseRequest modelName]
+-[HDBaseRequest setModelName:]
+-[HDBaseRequest modelData]
+-[HDBaseRequest setModelData:]
+-[HDBaseRequest url]
+-[HDBaseRequest setUrl:]
+-[HDBaseRequest showHud]
+-[HDBaseRequest setShowHud:]
+-[HDBaseRequest params]
+-[HDBaseRequest setParams:]
+-[HDBaseRequest setRequestMethod:]
+-[HDBaseRequest .cxx_destruct]
+_hdIp
+_OBJC_IVAR_$_HDBaseRequest._url
+_OBJC_IVAR_$_HDBaseRequest._params
+_OBJC_IVAR_$_HDBaseRequest._requestMethod
+_OBJC_IVAR_$_HDBaseRequest._showHud
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_CLASSLIST_REFERENCES_$_.66
+___block_descriptor_32_e23_v16?0"UIAlertAction"8l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+___block_descriptor_56_e8_32bs40bs48s_e24_v16?0"YTKBaseRequest"8l
+_OBJC_SELECTOR_REFERENCES_.112
+___block_descriptor_40_e8_32bs_e24_v16?0"YTKBaseRequest"8l
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_CLASSLIST_REFERENCES_$_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_IVAR_$_HDBaseRequest._modelName
+_OBJC_IVAR_$_HDBaseRequest._modelData
+__OBJC_METACLASS_RO_$_HDBaseRequest
+__OBJC_$_INSTANCE_METHODS_HDBaseRequest
+__OBJC_$_INSTANCE_VARIABLES_HDBaseRequest
+__OBJC_$_PROP_LIST_HDBaseRequest
+__OBJC_CLASS_RO_$_HDBaseRequest
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/HDBaseRequest.m
+TTHDApi/Class/HDBaseRequest.m
+TTHDApi/Class/HDBaseRequest.h
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__68-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]_block_invoke.110
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32b40b48s
+__68-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]_block_invoke_2
+__68-[HDBaseRequest startRequestWithCompletionBlockWithSuccess:failure:]_block_invoke
+-[MapUserModel provinceName]
+-[MapUserModel setProvinceName:]
+-[MapUserModel deptId]
+-[MapUserModel setDeptId:]
+-[MapUserModel accountStatus]
+-[MapUserModel setAccountStatus:]
+-[MapUserModel provinceId]
+-[MapUserModel setProvinceId:]
+-[MapUserModel optionalPackage]
+-[MapUserModel setOptionalPackage:]
+-[MapUserModel integral]
+-[MapUserModel setIntegral:]
+-[MapUserModel lastLoginTime]
+-[MapUserModel setLastLoginTime:]
+-[MapUserModel loginCount]
+-[MapUserModel setLoginCount:]
+-[MapUserModel idCard]
+-[MapUserModel setIdCard:]
+-[MapUserModel driverType]
+-[MapUserModel setDriverType:]
+-[MapUserModel orgType]
+-[MapUserModel setOrgType:]
+-[MapUserModel batteryVolts]
+-[MapUserModel setBatteryVolts:]
+-[MapUserModel packageName]
+-[MapUserModel setPackageName:]
+-[MapUserModel registTime]
+-[MapUserModel setRegistTime:]
+-[MapUserModel account]
+-[MapUserModel setAccount:]
+-[MapUserModel orgName]
+-[MapUserModel setOrgName:]
+-[MapUserModel packageId]
+-[MapUserModel setPackageId:]
+-[MapUserModel availableDays]
+-[MapUserModel setAvailableDays:]
+-[MapUserModel deviceClassify]
+-[MapUserModel setDeviceClassify:]
+-[MapUserModel attributionPlatform]
+-[MapUserModel setAttributionPlatform:]
+-[MapUserModel idCardReverse]
+-[MapUserModel setIdCardReverse:]
+-[MapUserModel exitnetTime]
+-[MapUserModel setExitnetTime:]
+-[MapUserModel ifPayDeposit]
+-[MapUserModel setIfPayDeposit:]
+-[MapUserModel phoneModel]
+-[MapUserModel setPhoneModel:]
+-[MapUserModel packageRemark]
+-[MapUserModel setPackageRemark:]
+-[MapUserModel nickName]
+-[MapUserModel setNickName:]
+-[MapUserModel realName]
+-[MapUserModel setRealName:]
+-[MapUserModel phoneNumber]
+-[MapUserModel setPhoneNumber:]
+-[MapUserModel detailedAddress]
+-[MapUserModel setDetailedAddress:]
+-[MapUserModel avatar]
+-[MapUserModel setAvatar:]
+-[MapUserModel cityName]
+-[MapUserModel setCityName:]
+-[MapUserModel vehicleBrand]
+-[MapUserModel setVehicleBrand:]
+-[MapUserModel cityId]
+-[MapUserModel setCityId:]
+-[MapUserModel idCardPositive]
+-[MapUserModel setIdCardPositive:]
+-[MapUserModel driverId]
+-[MapUserModel setDriverId:]
+-[MapUserModel leaseRent]
+-[MapUserModel setLeaseRent:]
+-[MapUserModel certification]
+-[MapUserModel setCertification:]
+-[MapUserModel realNamePinyin]
+-[MapUserModel setRealNamePinyin:]
+-[MapUserModel depositAmount]
+-[MapUserModel setDepositAmount:]
+-[MapUserModel depositType]
+-[MapUserModel setDepositType:]
+-[MapUserModel packageType]
+-[MapUserModel setPackageType:]
+-[MapUserModel balance]
+-[MapUserModel setBalance:]
+-[MapUserModel orgId]
+-[MapUserModel setOrgId:]
+-[MapUserModel .cxx_destruct]
+-[LoginInfo setOrgType:]
+-[LoginInfo setProvinceId:]
+-[LoginInfo setOrgId:]
+-[LoginInfo setCityId:]
+-[LoginInfo setDeptId:]
+-[LoginInfo setIdCard:]
+-[LoginInfo account]
+-[LoginInfo setAccount:]
+-[LoginInfo avatar]
+-[LoginInfo setAvatar:]
+-[LoginInfo certification]
+-[LoginInfo setCertification:]
+-[LoginInfo cityId]
+-[LoginInfo deptId]
+-[LoginInfo driverId]
+-[LoginInfo setDriverId:]
+-[LoginInfo idCard]
+-[LoginInfo lastLoginTime]
+-[LoginInfo setLastLoginTime:]
+-[LoginInfo loginCount]
+-[LoginInfo setLoginCount:]
+-[LoginInfo nickName]
+-[LoginInfo setNickName:]
+-[LoginInfo orgId]
+-[LoginInfo phoneNumber]
+-[LoginInfo setPhoneNumber:]
+-[LoginInfo provinceId]
+-[LoginInfo realName]
+-[LoginInfo setRealName:]
+-[LoginInfo realNamePinyin]
+-[LoginInfo setRealNamePinyin:]
+-[LoginInfo sex]
+-[LoginInfo setSex:]
+-[LoginInfo token]
+-[LoginInfo setToken:]
+-[LoginInfo orgType]
+-[LoginInfo .cxx_destruct]
++[UserInfo shareManager]
+___24+[UserInfo shareManager]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
+-[UserInfo userInfo]
+-[UserInfo setUserInfo:]
+-[UserInfo userModel]
+-[UserInfo setUserModel:]
+-[UserInfo hasBattery]
+-[UserInfo setHasBattery:]
+-[UserInfo isUpdate]
+-[UserInfo setIsUpdate:]
+-[UserInfo batteryInfo]
+-[UserInfo setBatteryInfo:]
+-[UserInfo updateModel]
+-[UserInfo setUpdateModel:]
+-[UserInfo .cxx_destruct]
+__OBJC_METACLASS_RO_$_MapUserModel
+__OBJC_$_INSTANCE_METHODS_MapUserModel
+_OBJC_IVAR_$_MapUserModel._provinceName
+_OBJC_IVAR_$_MapUserModel._deptId
+_OBJC_IVAR_$_MapUserModel._accountStatus
+_OBJC_IVAR_$_MapUserModel._provinceId
+_OBJC_IVAR_$_MapUserModel._optionalPackage
+_OBJC_IVAR_$_MapUserModel._integral
+_OBJC_IVAR_$_MapUserModel._lastLoginTime
+_OBJC_IVAR_$_MapUserModel._loginCount
+_OBJC_IVAR_$_MapUserModel._idCard
+_OBJC_IVAR_$_MapUserModel._driverType
+_OBJC_IVAR_$_MapUserModel._orgType
+_OBJC_IVAR_$_MapUserModel._batteryVolts
+_OBJC_IVAR_$_MapUserModel._packageName
+_OBJC_IVAR_$_MapUserModel._registTime
+_OBJC_IVAR_$_MapUserModel._account
+_OBJC_IVAR_$_MapUserModel._orgName
+_OBJC_IVAR_$_MapUserModel._packageId
+_OBJC_IVAR_$_MapUserModel._availableDays
+_OBJC_IVAR_$_MapUserModel._deviceClassify
+_OBJC_IVAR_$_MapUserModel._attributionPlatform
+_OBJC_IVAR_$_MapUserModel._idCardReverse
+_OBJC_IVAR_$_MapUserModel._exitnetTime
+_OBJC_IVAR_$_MapUserModel._ifPayDeposit
+_OBJC_IVAR_$_MapUserModel._phoneModel
+_OBJC_IVAR_$_MapUserModel._packageRemark
+_OBJC_IVAR_$_MapUserModel._nickName
+_OBJC_IVAR_$_MapUserModel._realName
+_OBJC_IVAR_$_MapUserModel._phoneNumber
+_OBJC_IVAR_$_MapUserModel._detailedAddress
+_OBJC_IVAR_$_MapUserModel._avatar
+_OBJC_IVAR_$_MapUserModel._cityName
+_OBJC_IVAR_$_MapUserModel._vehicleBrand
+_OBJC_IVAR_$_MapUserModel._cityId
+_OBJC_IVAR_$_MapUserModel._idCardPositive
+_OBJC_IVAR_$_MapUserModel._driverId
+_OBJC_IVAR_$_MapUserModel._leaseRent
+_OBJC_IVAR_$_MapUserModel._certification
+_OBJC_IVAR_$_MapUserModel._realNamePinyin
+_OBJC_IVAR_$_MapUserModel._depositAmount
+_OBJC_IVAR_$_MapUserModel._depositType
+_OBJC_IVAR_$_MapUserModel._packageType
+_OBJC_IVAR_$_MapUserModel._balance
+_OBJC_IVAR_$_MapUserModel._orgId
+__OBJC_$_INSTANCE_VARIABLES_MapUserModel
+__OBJC_$_PROP_LIST_MapUserModel
+__OBJC_CLASS_RO_$_MapUserModel
+__OBJC_METACLASS_RO_$_LoginInfo
+__OBJC_$_INSTANCE_METHODS_LoginInfo
+_OBJC_IVAR_$_LoginInfo._account
+_OBJC_IVAR_$_LoginInfo._avatar
+_OBJC_IVAR_$_LoginInfo._certification
+_OBJC_IVAR_$_LoginInfo._cityId
+_OBJC_IVAR_$_LoginInfo._deptId
+_OBJC_IVAR_$_LoginInfo._driverId
+_OBJC_IVAR_$_LoginInfo._idCard
+_OBJC_IVAR_$_LoginInfo._lastLoginTime
+_OBJC_IVAR_$_LoginInfo._loginCount
+_OBJC_IVAR_$_LoginInfo._nickName
+_OBJC_IVAR_$_LoginInfo._orgId
+_OBJC_IVAR_$_LoginInfo._phoneNumber
+_OBJC_IVAR_$_LoginInfo._provinceId
+_OBJC_IVAR_$_LoginInfo._realName
+_OBJC_IVAR_$_LoginInfo._realNamePinyin
+_OBJC_IVAR_$_LoginInfo._sex
+_OBJC_IVAR_$_LoginInfo._token
+_OBJC_IVAR_$_LoginInfo._orgType
+__OBJC_$_INSTANCE_VARIABLES_LoginInfo
+__OBJC_$_PROP_LIST_LoginInfo
+__OBJC_CLASS_RO_$_LoginInfo
+_shareManager.onceToken
+_shareManager.info
+___block_descriptor_40_e8__e5_v8?0l
+__OBJC_$_CLASS_METHODS_UserInfo
+__OBJC_METACLASS_RO_$_UserInfo
+__OBJC_$_INSTANCE_METHODS_UserInfo
+_OBJC_IVAR_$_UserInfo._hasBattery
+_OBJC_IVAR_$_UserInfo._isUpdate
+_OBJC_IVAR_$_UserInfo._userInfo
+_OBJC_IVAR_$_UserInfo._userModel
+_OBJC_IVAR_$_UserInfo._batteryInfo
+_OBJC_IVAR_$_UserInfo._updateModel
+__OBJC_$_INSTANCE_VARIABLES_UserInfo
+__OBJC_$_PROP_LIST_UserInfo
+__OBJC_CLASS_RO_$_UserInfo
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Modules/TTHDApi/TTHDApi/Class/UserInfo.m
+TTHDApi/Class/UserInfo.m
+TTHDApi/Class/UserInfo.h
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__24+[UserInfo shareManager]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
+/Users/qinchuanlong/Library/Developer/Xcode/DerivedData/TTHD-bnakwjzqkyxxkjcwkexwdprnmeji/Build/Intermediates.noindex/ArchiveIntermediates/TTHD/IntermediateBuildFilesPath/TTHDApi.build/Release-iphoneos/TTHDApi.build/DerivedSources/TTHDApi_vers.c

@@ -1,0 +1,55 @@
+.center {
+    margin: 0px 80px;
+    .inputBox {
+        border-bottom: 2px solid rgba(243,243,243,1);
+        font-size:32px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        // color:rgba(203,202,207,1);
+        line-height:44px;
+        padding-top: 20px;
+        box-sizing: border-box;
+        .extraStyle {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    :global {
+        .am-list-item.am-input-item {
+            padding-left: 0rem;
+            height: 124px;
+           
+        }
+        .am-list-item {
+            .am-list-line {
+                padding-right: 0rem;
+            }
+            .am-input-control {
+                input::-webkit-input-placeholder, input:-moz-placeholder, 
+                input::-moz-placeholder, input:-ms-input-placeholder, 
+                input::-ms-input-placeholder, input::placeholder {
+                    font-size:32px;
+                    font-family:PingFangSC-Regular,PingFang SC;
+                    font-weight:400;
+                    color:rgba(203,202,207,1);
+                }
+            }
+            .am-input-clear {
+                width: 32px;
+                height: 32px;
+                background-size: 32px auto;
+            }
+            .am-input-label {
+                margin-right: 0rem;
+            }
+            .am-input-extra {
+                margin-left: 0rem;
+            }
+            // .am-list-item:not(:last-child) 
+            .am-list-line {
+                border-bottom-width: 0px;
+            }
+        }
+    }
+    
+}

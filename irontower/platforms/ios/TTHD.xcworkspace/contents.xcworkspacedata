@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TTHD.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/MapModule/MapModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/CTMeditorCategory/CTMeditorCategory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/TTHDApi/TTHDApi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/CLUIKit/CLUIKit.xcodeproj">
+   </FileRef>
+</Workspace>

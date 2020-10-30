@@ -1,0 +1,67 @@
+.modalWrapper {
+  //   height: 200px;
+  background-image: url(../../../../assets/images/home-alert-title.png);
+  background-position: center top;
+  background-size: 100% 140px;
+  background-repeat: no-repeat;
+  .modalTitle {
+    line-height: 140px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+  }
+
+  .modalContent {
+    padding: 40px;
+    padding-bottom: 0;
+    text-align: left;
+    font-size: 28px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(105, 105, 109, 1);
+    line-height: 40px;
+    span {
+      color: #00bf83;
+    }
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    .footerItem {
+      width: 250px;
+      height: 80px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 45px;
+      border: 1px solid rgba(203, 202, 207, 1);
+      line-height: 80px;
+      font-size: 32px;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+      background: #00bf83;
+    }
+    .noAgree {
+      background-color: #fff;
+      border: 1px solid #cbcacf;
+      color: #69696d;
+    }
+  }
+}
+
+.protocolBox {
+  width: 610px;
+  :global {
+    .am-modal-content {
+      padding: 0;
+      border-radius: .2rem;
+    }
+    .am-modal-body {
+      padding: 0 !important;
+    }
+  }
+}

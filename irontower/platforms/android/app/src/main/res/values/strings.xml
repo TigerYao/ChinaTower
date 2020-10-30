@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">铁塔换电</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string formatted="false" name="pay_result_callback_msg">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="alart_un_auth">您尚未实名认证,是否实名认证?</string>
+    <string name="alart_un_pay">您尚未缴纳押金,是否前往缴纳?</string>
+    <string name="alart_un_package">您尚未缴费,是否前往缴费?</string>
+    <string name="alart_un_availableDays">您的套餐已过期,是否前往续费?</string>
+    <string name="alart_un_enable">本地市暂不支持首放功能，如有疑问，请咨询客服10096。</string>
+</resources>

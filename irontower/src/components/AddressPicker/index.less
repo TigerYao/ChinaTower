@@ -1,0 +1,128 @@
+.addressPickerModal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.addressPicker {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: all 0.2s ease-in;
+
+    &.show {
+        transform: translateY(0);
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+
+        .ampickerpopupheaderleft {
+            height: 48px;
+            width: 48px;
+            background: url('../../assets/images/go-back.png');
+            background-size: 100% 100%;
+            padding: 0;
+            color: rgba(0, 0, 0, 0);
+            margin-left: 15px;
+        }
+
+        .ampickerpopuptitle {
+            font-size: 0.36rem;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            color: #06041e;
+            line-height: 0.48rem;
+        }
+
+        .ampickerpopupheaderright {
+            background-size: 100% 100%;
+            box-sizing: border-box;
+            margin-right: 0.3rem;
+            padding: 0;
+            font-size: 0.32rem;
+            color: #00bf83;
+        }
+    }
+
+    .didChoose {
+        padding: 0 0.3rem;
+        border-bottom: 1PX solid #ddd;
+
+        .item {
+            display: inline-block;
+            width: 140px;
+            font-size: 0.28rem;
+            color: #06041e;
+            line-height: 0.48rem;
+            vertical-align: -6px;
+
+            &.active {
+                font-size: 0.28rem;
+                font-weight: 600;
+                color: #06041e;
+                line-height: 0.48rem;
+                border-bottom: 0.08rem solid #00bf83;
+                padding-bottom: 0.12rem;
+                margin-bottom: 0.1rem;
+            }
+        }
+    }
+
+    .cityList {
+        flex: 1;
+        height: 0;
+        overflow: scroll;
+
+        .cityItem {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            padding: 0 0.3rem;
+            min-height: 0.88rem;
+            background-color: #fff;
+            vertical-align: middle;
+            overflow: hidden;
+            transition: background-color 200ms;
+            -ms-flex-align: center;
+            align-items: center;
+
+            .cityName {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                font-size: 0.28rem;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #06041e;
+                line-height: 0.48rem;
+
+            }
+
+            .tick {
+                width: 0.1rem;
+                height: 0.2rem;
+                transform: rotate(40deg);
+                margin-right: 0.3rem;
+                border-bottom: 3px solid #00bf83;
+                border-right: 3px solid #00bf83;
+            }
+        }
+    }
+}

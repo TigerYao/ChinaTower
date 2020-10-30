@@ -1,0 +1,56 @@
+.center {
+  height: calc(100% - 90px);
+  background-color: #edf0f5;
+  :global {
+    // .coupons {
+    .am-tabs-default-bar-tab {
+      height: 98px;
+      color: rgba(105, 105, 109, 1);
+      font-weight: 400;
+      font-size: 28px;
+      border-bottom: none;
+
+      &.am-tabs-default-bar-tab-active {
+        color: rgba(4, 28, 30, 1);
+        font-weight: 600;
+        font-size: 32px;
+      }
+    }
+    .am-tabs-default-bar-underline {
+      display: none;
+    }
+    // }
+  }
+
+  .tabDefault {
+    color: rgba(105, 105, 109, 1);
+    font-weight: 400;
+    font-size: 28px;
+    &.activeStyle {
+      position: relative;
+      color: rgba(4, 28, 30, 1);
+      font-weight: 600;
+      font-size: 32px;
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 60px;
+        height: 8px;
+        background-color: #00bf83;
+        transform: translateX(-50%);
+        content: '';
+      }
+    }
+  }
+
+  .couponsView {
+    height: 100%;
+    padding-bottom: 40px;
+    overflow: scroll;
+  }
+  .empty {
+    height: 100%;
+    padding-top: 20px;
+  }
+}

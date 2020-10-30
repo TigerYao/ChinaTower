@@ -1,0 +1,169 @@
+.eleDetail {
+  position: fixed;
+  left: 40px;
+  right: 40px;
+  bottom: 100px;
+  background-color: #fff;
+  box-shadow: 0px 8px 22px 0px rgba(6, 4, 30, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  transform: translateY(200%);
+  transition: all 0.5s ease-in;
+  &.show {
+    transform: translateY(0);
+  }
+  .detailHd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    .detailTitle {
+      width: 0;
+      flex: 1;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      word-break: break-all;
+      height: 40px;
+      font-size: 28px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: rgba(6, 4, 30, 1);
+      line-height: 40px;
+    }
+
+    .detailStatus {
+      height: 34px;
+      font-size: 24px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: rgba(251, 96, 45, 1);
+      line-height: 34px;
+    }
+  }
+
+  .eleInfo {
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(105, 105, 109, 1);
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    .eleLine {
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+    }
+    .openDetail {
+      margin-left: 26px;
+      height: 36px;
+      border-radius: 18px;
+      border: 1px solid rgba(0, 191, 143, 1);
+      font-size: 24px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(0, 191, 143, 1);
+      line-height: 34px;
+      padding: 0 22px;
+      white-space: nowrap; 
+      width: 140px;
+    }
+  }
+  .eleCId {
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(105, 105, 109, 1);
+    line-height: 40px;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: flex-start;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  .footer {
+    padding-top: 34px;
+    border-top: 1px solid #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(105, 105, 109, 1);
+    .startTime {
+      flex: 1;
+      width: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      word-break: break-all;
+      &::before {
+        content: '借';
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: rgba(0, 191, 143, 0.08);
+        font-size: 20px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: rgba(0, 191, 143, 1);
+        text-align: center;
+        line-height: 40px;
+        margin-right: 10px;
+      }
+    }
+
+    .endTime {
+      flex: 1;
+      width: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      word-break: break-all;
+      &::before {
+        content: '还';
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: #edf0f5;
+        font-size: 20px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #373d52;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .sendBack {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    // transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 191, 143, 1);
+    box-shadow: 0px 8px 16px 0px rgba(0, 191, 143, 0.26);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 32px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CTMeditorCategory {
+  umbrella header "Pods-CTMeditorCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

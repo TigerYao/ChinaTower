@@ -1,0 +1,36 @@
+BCSymbolMap Version: 2.0
+-[NotificationService didReceiveNotificationRequest:withContentHandler:]
+-[NotificationService serviceExtensionTimeWillExpire]
+-[NotificationService contentHandler]
+-[NotificationService setContentHandler:]
+-[NotificationService bestAttemptContent]
+-[NotificationService setBestAttemptContent:]
+-[NotificationService .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_IVAR_$_NotificationService._contentHandler
+_OBJC_IVAR_$_NotificationService._bestAttemptContent
+__OBJC_METACLASS_RO_$_NotificationService
+_OBJC_METACLASS_$_NotificationService
+__OBJC_$_INSTANCE_METHODS_NotificationService
+__OBJC_$_INSTANCE_VARIABLES_NotificationService
+__OBJC_$_PROP_LIST_NotificationService
+__OBJC_CLASS_RO_$_NotificationService
+_OBJC_CLASS_$_NotificationService
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/NotificationService/NotificationService.m
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios
+NotificationService/NotificationService.m

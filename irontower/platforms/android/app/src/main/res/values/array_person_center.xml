@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人中心菜单名称-->
+    <string-array name="person_center_menu_name">
+        <item>我的钱包</item>
+        <item>我的订单</item>
+        <item>我的申请</item>
+        <item>换电记录</item>
+        <item>我的电池</item>
+        <item>我的车辆</item>
+        <item>铁塔客服</item>
+        <item>意见反馈</item>
+        <item>老带新</item>
+        <item>分享</item>
+        <item>设置</item>
+    </string-array>
+    <!--个人中心菜单图标-->
+    <integer-array name="person_center_menu_icon">
+        <item>@mipmap/drawer_wallet</item>
+        <item>@mipmap/drawer_order</item>
+        <item>@mipmap/drawer_apply</item>
+        <item>@mipmap/drawer_exchange_recorder</item>
+        <item>@mipmap/drawer_battery</item>
+        <item>@mipmap/drawer_car</item>
+        <item>@mipmap/drawer_service</item>
+        <item>@mipmap/drawer_faceback</item>
+        <item>@mipmap/drawer_invate</item>
+        <item>@mipmap/drawer_share</item>
+        <item>@mipmap/drawer_setting</item>
+    </integer-array>
+
+
+    <string-array name="person_center_menu_push_url">
+        <item>#/myWallet</item>
+        <item>#/myOrder</item>
+        <item>#/myWallet/applyRefundList</item>
+        <item>#/exchangeEleList</item>
+        <item>#/myBattery</item>
+        <item>#/carManage</item>
+        <item>local,service</item>
+        <item>#/personalCenter/feedBack</item>
+        <item>#/personalCenter/qrCodeInvate</item>
+        <item>local,share</item>
+        <item>#/personalCenter/setup</item>
+    </string-array>
+</resources>

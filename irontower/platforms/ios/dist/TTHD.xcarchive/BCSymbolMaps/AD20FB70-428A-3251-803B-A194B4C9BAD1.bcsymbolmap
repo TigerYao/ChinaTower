@@ -1,0 +1,104 @@
+BCSymbolMap Version: 2.0
+__OBJC_METACLASS_RO_$_CLBaseModel
+__OBJC_CLASS_RO_$_CLBaseModel
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/CLBaseModel/CLBaseModel.m
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods
+-[CLBaseNavigationController viewDidLoad]
+_OBJC_SELECTOR_REFERENCES_
+__OBJC_METACLASS_RO_$_CLBaseNavigationController
+__OBJC_$_INSTANCE_METHODS_CLBaseNavigationController
+__OBJC_CLASS_RO_$_CLBaseNavigationController
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/CLBaseNavigationViewController/CLBaseNavigationController.m
+QCLFoundation/CLFoundation/Classes/CLBaseNavigationViewController/CLBaseNavigationController.m
+-[CLBaseViewController viewDidLoad]
+__OBJC_METACLASS_RO_$_CLBaseViewController
+__OBJC_$_INSTANCE_METHODS_CLBaseViewController
+__OBJC_CLASS_RO_$_CLBaseViewController
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/CLBaseViewController/CLBaseViewController.m
+QCLFoundation/CLFoundation/Classes/CLBaseViewController/CLBaseViewController.m
+__OBJC_METACLASS_RO_$_CLBaseViewModel
+__OBJC_CLASS_RO_$_CLBaseViewModel
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/CLBaseViewModel/CLBaseViewModel.m
+-[NSDate(CL) cl_timestampToFormatter:timestamp:]
+-[NSDate(CL) cl_nowDateFormatter:]
+-[NSDate(CL) cl_formatterDate:formatter:]
+-[NSDate(CL) cl_timestampToDate:]
+-[NSDate(CL) cl_dateToTimestamp:]
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDate_$_CL
+__OBJC_$_CATEGORY_NSDate_$_CL
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/Categorys/NSDate+CL.m
+QCLFoundation/CLFoundation/Classes/Categorys/NSDate+CL.m
+-[NSString(CLRegex) phoneNumber]
+-[NSString(CLRegex) password]
+-[NSString(CLRegex) telphone]
+-[NSString(CLRegex) idCard]
+-[NSString(CLRegex) email]
+-[NSString(CLRegex) chinaMobile]
+-[NSString(CLRegex) chinaUnicom]
+-[NSString(CLRegex) chinaTelecom]
+-[NSString(CLRegex) url]
+-[NSString(CLRegex) regularExpression:]
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_CLRegex
+__OBJC_$_PROP_LIST_NSString_$_CLRegex
+__OBJC_$_CATEGORY_NSString_$_CLRegex
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/Categorys/NSString+CLRegex.m
+QCLFoundation/CLFoundation/Classes/Categorys/NSString+CLRegex.m
+__OBJC_METACLASS_RO_$_PodsDummy_QCLFoundation
+__OBJC_CLASS_RO_$_PodsDummy_QCLFoundation
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/Target Support Files/QCLFoundation/QCLFoundation-dummy.m
++[UIDevice(CL) UUIDString]
++[UIDevice(CL) systemVersion]
++[UIDevice(CL) deviceModel]
++[UIDevice(CL) infoDictionary]
++[UIDevice(CL) bundleId]
++[UIDevice(CL) buildNumber]
++[UIDevice(CL) appVersion]
++[UIDevice(CL) advertisingIdentifier]
++[UIDevice(CL) lastRestartDate]
++[UIDevice(CL) batteryLevel]
++[UIDevice(CL) totalDiskSpace]
++[UIDevice(CL) freeDiskSpace]
++[UIDevice(CL) usedDiskSpace]
++[UIDevice(CL) getDeviceName]
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.54
+__OBJC_$_CATEGORY_CLASS_METHODS_UIDevice_$_CL
+__OBJC_$_CLASS_PROP_LIST_UIDevice_$_CL
+__OBJC_$_CATEGORY_UIDevice_$_CL
+/Users/qinchuanlong/Movies/ZXRC/铁塔换电APP/chinaTower/irontower/platforms/ios/Pods/QCLFoundation/CLFoundation/Classes/Categorys/UIDevice+CL.m
+QCLFoundation/CLFoundation/Classes/Categorys/UIDevice+CL.m
+/Users/qinchuanlong/Library/Developer/Xcode/DerivedData/TTHD-bnakwjzqkyxxkjcwkexwdprnmeji/Build/Intermediates.noindex/ArchiveIntermediates/TTHD/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/QCLFoundation.build/DerivedSources/QCLFoundation_vers.c

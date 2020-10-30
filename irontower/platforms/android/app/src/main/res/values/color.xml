@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tra_60_black">#99000000</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+    <color name="color_1f1f1f">#1f1f1f</color>
+    <color name="color_252525">#252525</color>
+    <color name="drawer_auth_text_color">#00BF83</color>
+    <color name="drawer_un_auth_text_color">#FE5C56</color>
+    <color name="tra_40_black">#66000000</color>
+    <color name="main_theme">#FF00BF83</color>
+    <color name="power_20_30">#ffa500</color>
+    <color name="power_down_20">#ff4f1d</color>
+    <color name="power_off_line">#808080</color>
+
+    <color name="scan_side">#FF004B33</color>
+    <color name="scan_partial">#FF00724F</color>
+    <color name="scan_middle">#FF00BF83</color>
+
+    <color name="corner">#FF00BF83</color>
+    <color name="box_line">#ffffff</color>
+    <color name="mask_color">#9C272626</color>
+    <color name="item_select">#CBCAD3</color>
+
+</resources>

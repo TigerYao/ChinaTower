@@ -1,0 +1,86 @@
+.center {
+  padding-top: 22px;
+  padding-bottom: 188px;
+  .card {
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    .line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 32px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(6, 4, 30, 1);
+      line-height: 32px;
+      // padding: 40px 0px;
+      border-bottom: 2px solid #f3f3f3;
+      height: 112px;
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    .line:last-of-type {
+      border-bottom-width: 0px;
+    }
+    :global {
+      .alitajs-dform-vertical-title {
+        padding-left: 0px;
+        padding-top: 40px;
+        .alitajs-dform-title {
+          font-size: 32px !important;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(6, 4, 30, 1);
+          line-height: 32px;
+        }
+      }
+      .alitajs-dform-area {
+        .am-list-item {
+          margin-left: 0px;
+        }
+        .am-textarea-control {
+          padding-top: 40px;
+          padding-bottom: 40px;
+          textarea {
+            background: white;
+            padding-left: 0px;
+            padding-right: 5px;
+            padding-top: 0px;
+            font-size: 32px !important;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+          }
+        }
+      }
+      .am-list {
+        .am-list-item.am-textarea-item {
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+  .bottomBox {
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    height: 168px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 30px;
+    div {
+      margin: 0px 30px;
+      padding: 18px 0px;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+  }
+
+  :global {
+    .am-list-item {
+      padding-left: 0;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    },
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    },
+    "cordova-plugin-h5Bridge": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.chinatower.fghd.customer"
+    }
+  },
+  "dependent_plugins": {}
+}

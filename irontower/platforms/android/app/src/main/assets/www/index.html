@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, height=device-height, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    /> -->
+
+    <title></title>
+    <script src="./baseurl.js"></script>
+    <!-- <script>
+    //window.prefix = 'http://180.153.60.153:8091' // 测试地址
+    //window.prefix=' http://180.153.60.153:8091';
+    //  window.prefix = 'http://fx.chinatowercom.cn:8091'; // 生产地址
+    
+    //  window.prefix = 'http://49.4.79.188:8091'; //准生产地址
+
+  </script> -->
+    <!-- <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" /> -->
+    <meta content="no" name="msapplication-tap-highlight" />
+    <meta content="telephone=no" name="format-detection" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body,
+      #root {
+        width: 100%;
+        height: 100vh;
+      }
+      #root > div {
+        /* Status bar height on iOS 11.0 */
+        padding-top: constant(safe-area-inset-top);
+        padding-bottom: constant(safe-area-inset-bottom);
+        /* Status bar height on iOS 11+ */
+        padding-top: calc(env(safe-area-inset-top) * 2);
+        padding-bottom: calc(env(safe-area-inset-bottom) * 2);
+      }
+
+      .alita-layout-head {
+        top: calc(env(safe-area-inset-top) * 2) !important;
+      }
+      body {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-overflow-scrolling: touch;
+      }
+      input {
+        border: none;
+        outline: none;
+      }
+      #root {
+        position: relative;
+        overflow: scroll;
+      }
+      textarea:disabled,
+      input:disabled {
+        background-color: transparent;
+      }
+    </style>
+    <link rel="stylesheet" href="./umi.css" />
+    <script>
+      window.routerBase = "./";
+    </script>
+    <script>
+      //! umi version: 3.2.20
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- <script
+      type="text/javascript"
+      src="https://webapi.amap.com/maps?v=1.4.15&key=f1bb399a00c2a49ccd81c687704a6f6c"
+    ></script> -->
+    <!-- <script src="https://api.map.baidu.com/api?v=3.0&ak=t9A84QM5lt6a3SMumuQOQtvM2spIQQ2A"></script> -->
+    <!-- https://zsisme.gitbooks.io/ios-/content/ -->
+    <script src="https://api.map.baidu.com/api?v=3.0&ak=NIpEZqoHe59hu6piM9yD1QwhDOqhHIdy"></script>
+    <!-- <script src="https://api.map.baidu.com/api?v=3.0&ak=t9A84QM5lt6a3SMumuQOQtvM2spIQQ2A&callback=initializeBMap"></script> -->
+
+    <script>
+      window.console.log = () => {};
+      window.console.info = () => {};
+      window.console.warn = () => {};
+      window.console.error = () => {};
+    </script>
+    <script src="./cordova.js"></script>
+    <script src="./umi.js"></script>
+  </body>
+  <!-- <script>
+  var baidujs = document.createElement('script');
+  baidujs.type = 'text/javascript';
+  baidujs.src = 'https://api.map.baidu.com/api?v=3.0&ak=t9A84QM5lt6a3SMumuQOQtvM2spIQQ2A';
+  document.body.appendChild(baidujs)
+</script> -->
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "griffith-hls",
+  "version": "1.4.4",
+  "description": "griffith hls plugin",
+  "homepage": "https://github.com/zhihu/griffith/tree/master/packages/griffith-hls",
+  "license": "MIT",
+  "files": [
+    "cjs",
+    "esm"
+  ],
+  "source": "src/index.js",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "prebuild": "rm -rf esm cjs",
+    "build": "rollup -c ../../rollup.config.js"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0 <17.0.0",
+    "react-dom": ">=16.3.0 <17.0.0"
+  },
+  "dependencies": {
+    "hls.js": "0.7.11"
+  }
+}

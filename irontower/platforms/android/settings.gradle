@@ -1,0 +1,6 @@
+include ':czxing'
+include ':baselib'
+include ':faceplatform'
+include ':faceplatform-ui'// GENERATED FILE - DO NOT EDIT
+include ":CordovaLib"
+include ":app"

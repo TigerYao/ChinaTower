@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+android {
+    compileSdkVersion rootProject.ext.defaultCompileSdkVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.defaultMinSdkVersion
+        targetSdkVersion rootProject.ext.defaultTargetSdkVersion
+        versionCode 34
+        versionName "1.0.16"
+
+        externalNativeBuild {
+            cmake {
+//                cppFlags "-std=c++11 -frtti -fexceptions -pthread"
+//                cppFlags "-std=c++11 -pthread"
+                abiFilters "armeabi-v7a","arm64-v8a"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+//            version "3.10.2"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+
+//    implementation rootProject.ext.appcompat
+//    testImplementation rootProject.ext.junit
+//    androidTestImplementation rootProject.ext.testrunner
+//    androidTestImplementation rootProject.ext.testespresso
+}
+
+apply from: "bintrayUpload.gradle"
